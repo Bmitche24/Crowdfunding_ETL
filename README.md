@@ -36,6 +36,10 @@ Next, the Jupyter Notebook turns to cleaning and analyzing strings of contact da
     
 A 'str.split' function then separates first and last names in each row. Finally, the cleaned contact data is exported to a .csv.
 
+Once the Jupyter Notebook was completed, we created an ERD sketch based on the CSV files that were generated from the code in Jupyter Notebook. We then created a table schema based on the ERD for each CSV file. 
+
+A new Postgres database was then created based on the table schema. The tables have to be created in the correct order to handle the foreign keys. THe CSV files were then imported to each table in the correct order. Confirmed the tables were created and imported correctly. 
+
 # Acknowledgements
 This data was provided by the edX Data Visualization and Analytics Bootcamp at The Ohio State University, which generated the source data itself.
 
